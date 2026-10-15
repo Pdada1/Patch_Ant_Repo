@@ -602,6 +602,22 @@
 		(color 0 0 0 0)
 		(uuid "5b7cb9fe-f847-4e6b-92db-0664db7483a9")
 	)
+	(junction
+		(at 152.4 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa9c0c4-2d11-4b18-9d3e-f3ceaabbd736")
+	)
+	(wire
+		(pts
+			(xy 154.94 82.55) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c079bb9-69ac-4615-b328-f281b0ad2576")
+	)
 	(wire
 		(pts
 			(xy 144.78 83.82) (xy 146.05 83.82)
@@ -684,6 +700,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c8a2fe-5b43-49e2-8458-3769ab77bd44")
+	)
+	(wire
+		(pts
 			(xy 134.62 83.82) (xy 137.16 83.82)
 		)
 		(stroke
@@ -703,7 +729,7 @@
 		(uuid "c40103a2-15ee-4514-a4bb-8a86bfb08620")
 	)
 	(label "Antenna_In"
-		(at 151.13 83.82 90)
+		(at 154.94 82.55 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -711,6 +737,68 @@
 			(justify left bottom)
 		)
 		(uuid "d586f06d-6ba6-41d0-b15c-fe1c25372103")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 146.05 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c748991-e63e-49ff-a93a-72ebc560f39f")
+		(property "Netclass" "RF_IN"
+			(at 146.7485 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 19.05 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9800a977-7705-4180-a55e-18f1fd3f3d08")
+		(property "Netclass" "RF_IN"
+			(at 130.2385 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
@@ -807,7 +895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 140.97 83.82 0)
 			(effects
 				(font
@@ -877,7 +965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 147.0152 91.44 0)
 			(effects
 				(font
@@ -947,7 +1035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 135.5852 91.44 0)
 			(effects
 				(font
