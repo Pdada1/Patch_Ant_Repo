@@ -505,14 +505,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "/Antenna_In": [
-        "RF_IN"
-      ],
-      "/RF_IN": [
-        "RF_IN"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
